@@ -1,0 +1,51 @@
+.container {
+    width: 700px;
+    margin: 10 auto;
+    /* background-color: rgb(159, 198, 199); */
+    border-radius: 30px;
+}
+
+.container h1,
+h2 {
+    text-align: center;
+}
+
+.container hr {
+    /* border: 1px solid rgb(114, 114, 119); */
+    border-color: lightskyblue;
+}
+
+.image_coord {
+    padding: 20px;
+    /* background-color: lightcoral; */
+    height: 150px;
+}
+
+.image_coord img {
+    float: left;
+    height: 150px;
+    clip-path: ellipse(40% 50%);
+}
+
+.coordonnees {
+    float: left;
+    margin-top: 10px;
+}
+
+.coordonnees ul {
+    list-style: none;
+    /* background-color: lightpink;  */
+}
+
+.container .section {
+    margin: 20px;
+    padding: 10px;
+}
+
+p {
+    margin: 0px;
+}
+
+.sous_titre {
+    font-style: italic;
+}
